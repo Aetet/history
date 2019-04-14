@@ -1,0 +1,14 @@
+{
+  "name": "history_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck history.mdx"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^2.2.0"
+  }
+}
