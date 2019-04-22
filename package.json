@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "mdx-deck history.mdx"
+    "start": "mdx-deck history.mdx",
+    "build": "mdx-deck build -d docs --basepath='/docs' history.mdx",
+    "mdx": "mdx-deck"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@mdx-deck/export": "^2.2.1",
     "mdx-deck": "^2.2.0"
   }
 }
